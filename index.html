@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+
+  <style>
+    .gallery {
+      display: flex;
+      height: 20rem;
+      gap: 1rem;
+    }
+
+    .gallery div {
+      flex: 1;
+      border-radius: 1rem;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+      transition: all 0.8s cubic-bezier(0.25, 0.5, 0.45, 1.5);
+    }
+
+    .gallery div:hover {
+      flex: 5;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="gallery">
+    <div style="background-image: url('images/pexels-ahmed-ツ-15513809.jpg');"></div>
+    <div style="background-image: url('images/pexels-anna-shevchuk-12637036.jpg');"></div>
+    <div style="background-image: url('images/pexels-dominika-mazur-14446665.jpg');"></div>
+    <div style="background-image: url('images/pexels-esranur-kalay-13169922.jpg');"></div>
+    <div style="background-image: url('images/pexels-mesut-çiçen-14454924.jpg');"></div>
+    <div style="background-image: url('images/pexels-néo-rioux-9833110.jpg');"></div>
+  </div>
+</body>
+
+</html>
